@@ -2,7 +2,7 @@ package Datos;
 
 public class Book {
     private String id;
-    private String tituto;
+    private String titulo;
     private String autor;
     private String anno;
     private String estante_numero;
@@ -19,12 +19,12 @@ public class Book {
         this.id = id;
     }
 
-    public String getTituto() {
-        return tituto;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setTituto(String tituto) {
-        this.tituto = tituto;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getAutor() {
